@@ -15,9 +15,9 @@ steps:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
   
-- script: |
-    npm cache clean --force
-  displayName: 'npm cache clean'  
+# - script: |
+#     npm cache clean --force
+#   displayName: 'npm cache clean'  
 
 - script: |
     npm install
