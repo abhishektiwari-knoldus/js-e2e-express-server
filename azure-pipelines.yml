@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  my-agent
+  opagent
 
 steps:
 - task: NodeTool@0
